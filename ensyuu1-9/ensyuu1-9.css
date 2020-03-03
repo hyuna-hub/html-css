@@ -55,4 +55,9 @@ main{
   left: 0;
   background-color: #FF9A4B;
   color: #fff;
+  padding: 3px;
+}
+
+.title{
+  margin: 15px 0 5px;
 }
