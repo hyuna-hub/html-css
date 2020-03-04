@@ -87,12 +87,21 @@ main{
   .step-image1{
     height: 250px;
   }
-
   .step-image2{
     height: 250px;
   }
-
   .step-image3{
     height: 250px;
+  }
+
+  .step-no{
+    font-size: 25px;
+  }
+
+  .title{
+    font-size: 28px;
+  }
+  .text{
+    font-size: 23px;
   }
 }
