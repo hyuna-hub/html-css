@@ -65,16 +65,34 @@ main{
 @media screen and (max-width:768px) {
   main{
     width: 90%;
-    margin: 50px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .box{
+    width: 90%;
     margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
     float: none;
-    /*768pxで表示時、中央に来るよう余白調整*/
-    margin-left: 25%;
-    margin-right: 25%;
   }
+  /*1番目のboxの上部余白を無くす*/
   .box:first-child{
     margin-top: 0px;
+  }
+  /*3番目のboxのズレ修正*/
+  .box:nth-child(3){
+    margin-left: 35px;
+  }
+
+  .step-image1{
+    height: 250px;
+  }
+
+  .step-image2{
+    height: 250px;
+  }
+
+  .step-image3{
+    height: 250px;
   }
 }
