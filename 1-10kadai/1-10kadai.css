@@ -70,5 +70,11 @@ main{
   .box{
     margin-top: 20px;
     float: none;
+    /*768pxで表示時、中央に来るよう余白調整*/
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .box:first-child{
+    margin-top: 0px;
   }
 }
