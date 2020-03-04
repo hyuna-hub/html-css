@@ -202,9 +202,12 @@ footer{
 	header{
 		width: 100%;
 	}
-	nav{
-		width: 100%;
+	.social{
+		display: none;
 	}
+	.nav-list {
+    	width: 100%;
+  	}
 	.main-visual{
 		width: 100%;
 	}
@@ -214,6 +217,20 @@ footer{
 	.blog{
 		width: 100%
 	}
+	.blog-box {
+    	padding-left: 2%;
+    	padding-right: 2%;
+    }
+	.blog-image{
+		width: 50%;
+	}
+	.blog-text {
+    	width: 50%;
+    	padding-top: 5px;
+   	}
+   	.pagination {
+   		margin-bottom: 50px;
+  	}
 	.sideber{
 		width: 100%;
 		float: none;
