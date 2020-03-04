@@ -207,8 +207,13 @@ footer{
 	}
 	.nav-list {
     	width: 100%;
+    	margin: 0 0 10px 0;
   	}
-	.main-visual{
+  	.nav-list-item {
+    	width: 100%;
+    	margin: 0 0 10px 0;
+  	}
+	.main-visual-content{
 		width: 100%;
 	}
 	main{
@@ -233,6 +238,14 @@ footer{
   	}
 	.sideber{
 		width: 100%;
-		float: none;
+		padding-left: 3%;
+    	padding-right: 3%;
 	}
+	.instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  	}
+  	.instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  	}
 }
