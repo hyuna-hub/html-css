@@ -193,3 +193,29 @@ footer{
 .footer-text{
 	color: #fff;
 }
+
+.social i {
+  color:black;
+}
+
+@media screen and (max-width:425px) {
+	header{
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+	}
+	.main-visual{
+		width: 100%;
+	}
+	main{
+		width: 100%;
+	}
+	.blog{
+		width: 100%
+	}
+	.sideber{
+		width: 100%;
+		float: none;
+	}
+}
